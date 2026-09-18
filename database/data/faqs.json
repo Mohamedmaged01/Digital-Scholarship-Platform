@@ -1,0 +1,216 @@
+[
+  {
+    "id": "faq-adm-1",
+    "category": "admission",
+    "tags": [
+      "القبول",
+      "الذكاء الاصطناعي",
+      "التدقيق"
+    ],
+    "questionAr": "كيف يعمل نظام فحص وتدقيق القبول بالذكاء الاصطناعي في منصة قبول؟",
+    "questionEn": "How does the AI smart admission verification work in the platform?",
+    "answerAr": "يقوم النظام فور رفع خطاب القبول الجامعي (PDF) بتشغيل محرك OCR متقدم وتحليل لغوي BERT لاستخراج اسم الجامعة، التخصص، نوع القبول (مشروط/غير مشروط)، الدرجة العلمية، والتحقق التلقائي مع قوائم الجامعات المعتمدة وتحديد المسار المطابق بدقة تتجاوز 98%.",
+    "answerEn": "Upon uploading your university acceptance letter, our advanced OCR and NLP engine extracts key entities (institution, major, unconditional status, degree level) and matches them instantly against approved lists."
+  },
+  {
+    "id": "faq-adm-2",
+    "category": "admission",
+    "tags": [
+      "قبول مشروط",
+      "لغة إنجليزية",
+      "Direct Entry"
+    ],
+    "questionAr": "هل يمكن التقديم بقبول مشروط بدراسة مرحلة اللغة الإنجليزية؟",
+    "questionEn": "Can I apply with a conditional offer requiring an English language preparation year?",
+    "answerAr": "المسارات الاستراتيجية (كالرواد وإمداد والبحث والتطوير) تتطلب قبولاً أكاديمياً نهائياً ومباشراً غير مشروط لدراسة الدرجة العلمية (Direct Entry). ويجب استيفاء شرط اللغة قبل صدور قرار الابتعاث.",
+    "answerEn": "Strategic tracks strictly require direct unconditional admission into the academic degree (Direct Entry). Language qualifications must be met prior to scholarship decree issuance."
+  },
+  {
+    "id": "faq-trk-1",
+    "category": "tracks",
+    "tags": [
+      "المسارات",
+      "شروط",
+      "الرواد",
+      "إمداد"
+    ],
+    "questionAr": "ما هو الفرق الجوهري بين مسار الرواد ومسار إمداد؟",
+    "questionEn": "What is the key difference between Pioneers Track and Supply (Imdad) Track?",
+    "answerAr": "مسار الرواد مخصص للابتعاث إلى أفضل 30 جامعة ومؤسسة تعليمية على مستوى العالم في أي تخصص نوعي بقبول غير مشروط وبمزايا استثنائية. بينما يركز مسار إمداد على سد الاحتياج الوطني في مجالات استراتيجية محددة في أفضل 200 جامعة عالمية.",
+    "answerEn": "Pioneers Track targets top 30 global universities for direct unconditional admissions across all disciplines with exceptional stipends. Imdad Track focuses on national priority labor market sectors across top 200 universities."
+  },
+  {
+    "id": "faq-trk-2",
+    "category": "tracks",
+    "tags": [
+      "مسار البحث والتطوير",
+      "دكتوراه",
+      "ابتكار"
+    ],
+    "questionAr": "من هي الفئة المستهدفة في مسار البحث والتطوير (R&D)؟",
+    "questionEn": "Who is eligible for the Research & Development (R&D) track?",
+    "answerAr": "يستهدف المسار الباحثين وطلاب الدراسات العليا الراغبين بدراسة الدكتوراه أو أبحاث ما بعد الدكتوراه في مجالات الأولويات الوطنية للبحث والتطوير والابتكار (الصحة والبيئة والذكاء الاصطناعي واقتصاديات المستقبل).",
+    "answerEn": "Targets researchers and graduate scholars pursuing doctoral or post-doctoral studies aligned with national R&D and innovation priorities."
+  },
+  {
+    "id": "faq-req-1",
+    "category": "requirements",
+    "tags": [
+      "شروط",
+      "المعدل",
+      "العمر",
+      "الأهلية"
+    ],
+    "questionAr": "ما هي الشروط العامة الأساسية للقبول في برنامج الابتعاث؟",
+    "questionEn": "What are the core general criteria for scholarship admission?",
+    "answerAr": "1. أن يكون المتقدم سعودي الجنسية وحسن السيرة والسلوك.\n2. الحصول على قبول مباشر غير مشروط من مؤسسة تعليمية مدرجة ضمن قائمة الجامعات المعتمدة للمسار.\n3. أن يكون التخصص والدرجة متوافقين مع المسار المحدد.\n4. الانتظام الكلي والتفرغ التام للدراسة والإقامة في بلد الابتعاث.\n5. تحقيق شروط المعدل الأكاديمي واللغة الخاصة بكل مسار.",
+    "answerEn": "1. Saudi citizenship and good conduct.\n2. Direct unconditional offer from an approved university.\n3. Major and degree alignment with the designated track.\n4. Full-time study dedication and residency in host country.\n5. Fulfilling specific track GPA and language thresholds."
+  },
+  {
+    "id": "faq-req-2",
+    "category": "requirements",
+    "tags": [
+      "العمر",
+      "المعدل التراكمي",
+      "الآيلتس"
+    ],
+    "questionAr": "ما هو الحد الأدنى للغة الإنجليزية والمعدل التراكمي المطلوب؟",
+    "questionEn": "What are the minimum required English test scores and GPA?",
+    "answerAr": "لمسار الرواد: معدل لا يقل عن 4.5 من 5.0 (أو 3.5 من 4.0) ودرجة آيلتس 7.0 فأعلى. لمسار إمداد وباقي المسارات: معدل لا يقل عن 3.5 من 5.0 (أو 2.75 من 4.0) ودرجة آيلتس 6.5 فأعلى (أو ما يعادلها في TOEFL iBT).",
+    "answerEn": "For Pioneers: GPA >= 4.5/5.0 and IELTS >= 7.0. For Supply & other tracks: GPA >= 3.5/5.0 and IELTS >= 6.5 or equivalent TOEFL iBT score."
+  },
+  {
+    "id": "faq-uni-1",
+    "category": "universities",
+    "tags": [
+      "الجامعات",
+      "التصنيف الدولي",
+      "QS",
+      "THE"
+    ],
+    "questionAr": "كيف يتم تصنيف واعتماد الجامعات العالمية في البرنامج؟",
+    "questionEn": "How are international universities ranked and accredited in the program?",
+    "answerAr": "يعتمد البرنامج التصنيفات الأكاديمية العالمية المعتبرة (QS World University Rankings و THE و Shanghai ARWU). تنقسم الجامعات بحسب المسار: أفضل 30 جامعة عالمية لمسار الرواد، وأفضل 70 لمسار التميز، وأفضل 200 لمسار إمداد والبحث والتطوير.",
+    "answerEn": "The program relies on QS, THE, and Shanghai ARWU rankings. Ranked into Top 30 (Pioneers), Top 70 (Excellence), and Top 200 (Supply & R&D)."
+  },
+  {
+    "id": "faq-uni-2",
+    "category": "universities",
+    "tags": [
+      "قائمة الجامعات",
+      "تخصصات",
+      "تحديث القوائم"
+    ],
+    "questionAr": "هل تتغير قائمة الجامعات المعتمدة سنوياً؟",
+    "questionEn": "Are accredited university lists updated annually?",
+    "answerAr": "نعم، تتم مراجعة وتحديث قوائم الجامعات المعتمدة دورياً وفق أحدث نسخ التصنيفات الدولية السنوية لضمان أعلى معايير الجودة الأكاديمية للمبتعثين.",
+    "answerEn": "Yes, university lists are regularly reviewed and refreshed in alignment with current global ranking releases."
+  },
+  {
+    "id": "faq-doc-1",
+    "category": "documents",
+    "tags": [
+      "المستندات",
+      "الأوراق",
+      "خطاب القبول",
+      "الجواز"
+    ],
+    "questionAr": "ما هي المستندات الرسمية الإلزامية المطلوب رفعها في المنصة؟",
+    "questionEn": "What are the mandatory documents required for submission?",
+    "answerAr": "1. خطاب القبول الجامعي الرسمي غير المشروط (Unconditional Offer).\n2. وثيقة التخرج والسجل الأكاديمي الرسمي السابق (مصدقاً ومعادلاً إن لزم).\n3. شهادة اختبار اللغة الإنجليزية (IELTS Academic أو TOEFL iBT) سارية المفعول.\n4. صورة واضحة من جواز السفر ساري المفعول لمدة لا تقل عن 6 أشهر.\n5. السيرة الذاتية وخطة البحث (للمتقدمين على مسار البحث والتطوير والدكتوراه).",
+    "answerEn": "1. Official Unconditional Acceptance Letter.\n2. Graduation diploma and certified academic transcripts.\n3. Valid IELTS Academic or TOEFL iBT certificate.\n4. Valid passport copy (minimum 6 months validity).\n5. CV and research proposal (for R&D and PhD applicants)."
+  },
+  {
+    "id": "faq-doc-2",
+    "category": "documents",
+    "tags": [
+      "معادلة الشهادة",
+      "وزارة التعليم"
+    ],
+    "questionAr": "هل يلزم تقديم معادلة الشهادة للدرجة السابقة؟",
+    "questionEn": "Is academic equivalency required for degrees obtained abroad?",
+    "answerAr": "إذا كانت شهادتك السابقة صادرة من جامعة خارج المملكة العربية السعودية، فيلزم تقديم قرار معادلة المؤهل الصادر رسمياً من وزارة التعليم بالمملكة.",
+    "answerEn": "Yes, if your prior degree was granted by an institution outside the Kingdom, a formal certificate equivalency from the Ministry of Education is required."
+  },
+  {
+    "id": "faq-nom-1",
+    "category": "nomination",
+    "tags": [
+      "الترشيح",
+      "المفاضلة",
+      "المقابلة",
+      "لجنة الابتعاث"
+    ],
+    "questionAr": "كيف تتم عملية المفاضلة والترشيح بين المتقدمين؟",
+    "questionEn": "How are candidates shortlisted and evaluated during nomination?",
+    "answerAr": "تتم المفاضلة إلكترونياً وبشفافية تامة وفق معايير موزونة تشمل: ترتيب تصنيف الجامعة العالمي، نوع التخصص وأولويته الوطنية، والمعدل التراكمي، ودرجة اختبار اللغة، مع إعطاء الأولوية للقبولات المباشرة في أفضل الجامعات العالمية.",
+    "answerEn": "Evaluation is conducted algorithmically based on objective weights: global university rank, priority field, cumulative GPA, and English proficiency test scores."
+  },
+  {
+    "id": "faq-nom-2",
+    "category": "nomination",
+    "tags": [
+      "مدة المراجعة",
+      "النتائج",
+      "حالة الطلب"
+    ],
+    "questionAr": "كم تستغرق دراسة الطلب وإعلان نتيجة الترشيح؟",
+    "questionEn": "How long does application review and nomination notification take?",
+    "answerAr": "يستغرق الفحص الآلي بالذكاء الاصطناعي دقائق معدودة فور الرفع، بينما تستغرق المراجعة الأكاديمية والاعتماد النهائي من لجان الابتعاث والملحقيات الثقافية ما بين 7 إلى 14 يوم عمل، مع إشعار المتقدم لحظياً عبر الرسائل النصية والبريد.",
+    "answerEn": "Automated AI checks conclude within minutes, while formal academic committee review takes 7-14 business days, with real-time SMS and email status updates."
+  },
+  {
+    "id": "faq-post-1",
+    "category": "post_nomination",
+    "tags": [
+      "ما بعد الترشيح",
+      "الضمان المالي",
+      "الفيزا",
+      "التأشيرة"
+    ],
+    "questionAr": "ما هي الإجراءات الواجب اتباعها فور صدور قرار الترشيح للابتعاث؟",
+    "questionEn": "What steps must be followed immediately after nomination decree issuance?",
+    "answerAr": "1. تحميل الضمان المالي الرقمي المعتمد من المنصة.\n2. التقديم على تأشيرة الدراسة لدى سفارة دولة الابتعاث (تقديم I-20 أو CAS والضمان المالي).\n3. حجز موعد الكشف الطبي الإلزامي وإكماله.\n4. إصدار تذاكر السفر الحكومية وبدء رحلة الابتعاث عبر بوابة سفير.",
+    "answerEn": "1. Download the digital Financial Guarantee.\n2. Apply for student visa at relevant embassy using I-20/CAS and the guarantee.\n3. Complete mandatory pre-departure medical screening.\n4. Issue official flight tickets via Safeer portal."
+  },
+  {
+    "id": "faq-post-2",
+    "category": "post_nomination",
+    "tags": [
+      "الضمان المالي",
+      "سفير",
+      "QR Code"
+    ],
+    "questionAr": "كيف ومتى يتم إصدار الضمان المالي الرقمي وما هي استخداماته؟",
+    "questionEn": "How and when is the digital Financial Guarantee issued and how is it used?",
+    "answerAr": "يتم توليد الضمان المالي الرقمي فور اعتماد القرار، مزوداً برمز QR مشفر وخاتم رسمي. يستخدم لتقديمه للجامعة لإنهاء إجراءات التسجيل الأكاديمي، وللسفارة لإثبات التغطية المالية الكاملة للرسوم والمعيشة.",
+    "answerEn": "Automatically generated upon decree approval, equipped with encrypted QR code. Presented to universities for registration and to embassies for proof of full financial sponsorship."
+  },
+  {
+    "id": "faq-srv-1",
+    "category": "services",
+    "tags": [
+      "الخدمات الإلكترونية",
+      "سفير",
+      "التذاكر",
+      "المكافآت"
+    ],
+    "questionAr": "ما هي الخدمات الإلكترونية المتاحة للطالب عبر منظومة \"سفير\"؟",
+    "questionEn": "What electronic services are provided to scholars through Safeer platform?",
+    "answerAr": "توفر منظومة سفير أكثر من 60 خدمة رقمية تشمل: طلب أوامر الإركاب والتذاكر، صرف المخصصات الشهرية وبدل السكن، صرف مكافأة التميز، طلبات تمديد البعثة أو ترقية الدرجة العلمية، إضافة المرافقين، والتواصل المباشر مع المشرف الدراسي.",
+    "answerEn": "Safeer provides over 60 digital services including flight tickets, monthly living allowances, academic excellence bonuses, scholarship extension, dependent registration, and supervisor direct messaging."
+  },
+  {
+    "id": "faq-srv-2",
+    "category": "services",
+    "tags": [
+      "المساعد الذكي",
+      "الاستشارات",
+      "الدعم الفني"
+    ],
+    "questionAr": "كيف يمكنني الاستفادة من المساعد الذكي وخدمات الدعم الفوري؟",
+    "questionEn": "How can I leverage the AI Assistant and immediate support services?",
+    "answerAr": "المساعد الذكي متاح على مدار الساعة عبر الزر العائم للإجابة على كافة التساؤلات وشرح الشروط والبحث عن الجامعات. كما يمكنك حجز موعد استشاري أكاديمي مباشر مع مشرف الابتعاث أو التواصل مع مركز رعاية المستفيدين على الرقم الموحد 19996.",
+    "answerEn": "The AI Assistant is accessible 24/7 via the floating assistant to clarify tracks, search universities, and guide applications. You can also book 1-on-1 supervisor appointments or call support at 19996."
+  }
+]

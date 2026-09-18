@@ -1,0 +1,147 @@
+{
+  "SUPER_ADMIN": {
+    "labelAr": "المشرف العام (Super Admin)",
+    "labelEn": "Super Administrator",
+    "allowedSections": [
+      "statistics",
+      "tracks",
+      "universities",
+      "majors",
+      "countries",
+      "faqs",
+      "news",
+      "pages",
+      "media",
+      "ai",
+      "users",
+      "audit",
+      "settings"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": true,
+    "canManageSettings": true
+  },
+  "CONTENT_MANAGER": {
+    "labelAr": "مدير المحتوى (Content Manager)",
+    "labelEn": "Content Manager",
+    "allowedSections": [
+      "statistics",
+      "pages",
+      "news",
+      "faqs",
+      "media"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "SCHOLARSHIP_MANAGER": {
+    "labelAr": "مدير مسارات الابتعاث (Scholarship Manager)",
+    "labelEn": "Scholarship Tracks Manager",
+    "allowedSections": [
+      "statistics",
+      "tracks",
+      "countries"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "UNIVERSITY_MANAGER": {
+    "labelAr": "مدير الجامعات والتخصصات (University Manager)",
+    "labelEn": "University & Majors Manager",
+    "allowedSections": [
+      "statistics",
+      "universities",
+      "majors",
+      "countries"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "FAQ_MANAGER": {
+    "labelAr": "مدير الأسئلة الشائعة (FAQ Manager)",
+    "labelEn": "FAQ & Inquiries Manager",
+    "allowedSections": [
+      "faqs"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "MEDIA_MANAGER": {
+    "labelAr": "مدير الوسائط الرقمية (Media Manager)",
+    "labelEn": "Digital Media Manager",
+    "allowedSections": [
+      "media"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "SEO_MANAGER": {
+    "labelAr": "مدير محركات البحث (SEO Manager)",
+    "labelEn": "SEO & Metadata Manager",
+    "allowedSections": [
+      "pages",
+      "settings"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "AI_MANAGER": {
+    "labelAr": "مدير محركات الذكاء الاصطناعي (AI Manager)",
+    "labelEn": "AI & Chatbot Knowledge Manager",
+    "allowedSections": [
+      "ai",
+      "statistics"
+    ],
+    "canEdit": true,
+    "canPublish": true,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "EDITOR": {
+    "labelAr": "محرر محتوى (Editor)",
+    "labelEn": "Content Editor",
+    "allowedSections": [
+      "pages",
+      "news",
+      "faqs",
+      "media"
+    ],
+    "canEdit": true,
+    "canPublish": false,
+    "canManageUsers": false,
+    "canManageSettings": false
+  },
+  "VIEWER": {
+    "labelAr": "مستعرض / مراقب (Viewer)",
+    "labelEn": "Read-only Auditor / Viewer",
+    "allowedSections": [
+      "statistics",
+      "tracks",
+      "universities",
+      "majors",
+      "countries",
+      "faqs",
+      "news",
+      "pages",
+      "media",
+      "audit"
+    ],
+    "canEdit": false,
+    "canPublish": false,
+    "canManageUsers": false,
+    "canManageSettings": false
+  }
+}

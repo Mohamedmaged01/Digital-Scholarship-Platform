@@ -1,0 +1,35 @@
+[
+  {
+    "id": "apt-01",
+    "userId": "usr-sarah-01",
+    "userName": "سارة محمد القحطاني",
+    "userNationalId": "1098472918",
+    "type": "scholarship_contract",
+    "subject": "مناقشة خطة البحث والبدء الأكاديمي في MIT",
+    "description": "استفسار عن متطلبات تأشيرة F-1 وترتيبات السكن والتأمين الصحي الفيدرالي في كامبريدج بوسطن.",
+    "preferredDate": "2026-09-04",
+    "preferredTime": "11:00",
+    "status": "confirmed",
+    "assignedSupervisorId": "usr-supervisor-02",
+    "assignedSupervisorName": "د. خالد بن فهد العتيبي",
+    "meetingLink": "https://meet.moe.gov.sa/sacm-sarah-8821",
+    "location": "الملحقية الثقافية بواشنطن (عبر الاتصال المرئي)",
+    "createdAt": "2026-08-27T10:00:00"
+  },
+  {
+    "id": "apt-02",
+    "userId": "usr-faisal-02",
+    "userName": "فيصل عبد الرحمن الغامدي",
+    "userNationalId": "1076543219",
+    "type": "visa_inquiry",
+    "subject": "متطلبات تأشيرة الطالب البريطانية (Student Visa CAS)",
+    "description": "الحاجة إلى خطاب الضمان المالي الموجه للسفارة البريطانية في الرياض.",
+    "preferredDate": "2026-09-06",
+    "preferredTime": "14:30",
+    "status": "pending",
+    "assignedSupervisorId": "usr-supervisor-02",
+    "assignedSupervisorName": "د. خالد بن فهد العتيبي",
+    "location": "اجتماع رقمي موثق",
+    "createdAt": "2026-08-30T11:20:00"
+  }
+]

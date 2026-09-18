@@ -1,0 +1,93 @@
+[
+  {
+    "id": "adm-01",
+    "nameAr": "د. عبدالإله الغامدي",
+    "nameEn": "Dr. Abdulelah Al-Ghamdi",
+    "email": "admin.kasp@moe.gov.sa",
+    "role": "SUPER_ADMIN",
+    "department": "وكالة الوزارة للابتعاث",
+    "status": "active",
+    "lastActive": "الآن",
+    "avatarUrl": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=120&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "adm-02",
+    "nameAr": "أ. فهد الدوسري",
+    "nameEn": "Fahad Al-Dossary",
+    "email": "f.dossary@moe.gov.sa",
+    "role": "CONTENT_MANAGER",
+    "department": "الإدارة العامة للاتصال المؤسسي",
+    "status": "active",
+    "lastActive": "منذ 15 دقيقة"
+  },
+  {
+    "id": "adm-03",
+    "nameAr": "د. سارة بنت عبد الله التميمي",
+    "nameEn": "Dr. Sarah Al-Tamimi",
+    "email": "s.tamimi@moe.gov.sa",
+    "role": "SCHOLARSHIP_MANAGER",
+    "department": "إدارة المسارات الاستراتيجية",
+    "status": "active",
+    "lastActive": "منذ ساعة"
+  },
+  {
+    "id": "adm-04",
+    "nameAr": "م. راشد بن سلطان المري",
+    "nameEn": "Eng. Rashid Al-Marri",
+    "email": "r.marri@moe.gov.sa",
+    "role": "UNIVERSITY_MANAGER",
+    "department": "إدارة التصنيف والاعتماد الأكاديمي",
+    "status": "active",
+    "lastActive": "منذ 3 ساعات"
+  },
+  {
+    "id": "adm-05",
+    "nameAr": "أ. هند بنت خالد السديري",
+    "nameEn": "Hind Al-Sudairi",
+    "email": "h.sudairi@moe.gov.sa",
+    "role": "FAQ_MANAGER",
+    "department": "مركز خدمة المستفيدين (تواصل)",
+    "status": "active",
+    "lastActive": "منذ يوم"
+  },
+  {
+    "id": "adm-06",
+    "nameAr": "أ. تركي بن صالح الحربي",
+    "nameEn": "Turki Al-Harbi",
+    "email": "t.harbi@moe.gov.sa",
+    "role": "MEDIA_MANAGER",
+    "department": "الإنتاج الرقمي والإعلامي",
+    "status": "active",
+    "lastActive": "منذ يومين"
+  },
+  {
+    "id": "adm-07",
+    "nameAr": "م. نوف بنت فايز الشهراني",
+    "nameEn": "Nouf Al-Shahrani",
+    "email": "n.shahrani@moe.gov.sa",
+    "role": "AI_MANAGER",
+    "department": "إدارة الذكاء الاصطناعي والتحول الرقمي",
+    "status": "active",
+    "lastActive": "منذ 20 دقيقة"
+  },
+  {
+    "id": "adm-08",
+    "nameAr": "أ. خالد بن ماجد الغامدي",
+    "nameEn": "Khaled Al-Ghamdi",
+    "email": "k.ghamdi@moe.gov.sa",
+    "role": "EDITOR",
+    "department": "تحرير ونشر المحتوى الأكاديمي",
+    "status": "active",
+    "lastActive": "منذ 4 ساعات"
+  },
+  {
+    "id": "adm-09",
+    "nameAr": "أ. منيرة بنت سعد العجمي",
+    "nameEn": "Munira Al-Ajmi",
+    "email": "m.ajmi@nazaha.gov.sa",
+    "role": "VIEWER",
+    "department": "المراجعة والرقابة الداخلية",
+    "status": "active",
+    "lastActive": "منذ يوم"
+  }
+]

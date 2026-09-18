@@ -1,0 +1,217 @@
+@import 'tailwindcss';
+
+@source '../**/*.blade.php';
+@source '../**/*.js';
+@source '../../app/**/*.php';
+
+/* ==========================================================================
+   Design tokens — Saudi government identity
+   ========================================================================== */
+
+@theme {
+    --color-saudi-50: #ecfdf4;
+    --color-saudi-100: #d1fae3;
+    --color-saudi-200: #a7f3cc;
+    --color-saudi-300: #6ee7b0;
+    --color-saudi-400: #34d391;
+    --color-saudi-500: #0f9d63;
+    --color-saudi-600: #007f4c;
+    --color-saudi-700: #005a36;
+    --color-saudi-800: #004328;
+    --color-saudi-900: #022c22;
+    --color-saudi-950: #011a14;
+
+    --color-sand-100: #f7f0df;
+    --color-sand-200: #efe0bd;
+    --color-sand-300: #dfc284;
+    --color-sand-400: #c5a059;
+    --color-sand-500: #a8843f;
+
+    --color-canvas: #f8faf9;
+
+    --font-arabic: 'IBM Plex Sans Arabic', 'Tajawal', 'Segoe UI', sans-serif;
+    --font-latin: 'IBM Plex Sans', 'Inter', 'Segoe UI', sans-serif;
+
+    --text-hero: clamp(2rem, 3.5vw + 1rem, 3.75rem);
+    --text-hero--line-height: 1.2;
+    --text-section: clamp(1.75rem, 2.5vw + 0.5rem, 2.5rem);
+    --text-section--line-height: 1.3;
+}
+
+/* ==========================================================================
+   Base
+   ========================================================================== */
+
+@layer base {
+    html {
+        scroll-behavior: smooth;
+    }
+
+    html[lang='ar'] {
+        font-family: var(--font-arabic);
+        line-height: 1.75;
+    }
+
+    html[lang='en'] {
+        font-family: var(--font-latin);
+        line-height: 1.6;
+    }
+
+    body {
+        background-color: var(--color-canvas);
+        color: var(--color-slate-900);
+        -webkit-font-smoothing: antialiased;
+        -moz-osx-font-smoothing: grayscale;
+        text-rendering: optimizeLegibility;
+    }
+
+    /* Arabic numerals stay Latin for rankings, GPAs and phone numbers. */
+    [dir='rtl'] .numeric {
+        direction: ltr;
+        unicode-bidi: embed;
+    }
+
+    :focus-visible {
+        outline: 2px solid var(--color-saudi-600);
+        outline-offset: 2px;
+        border-radius: 0.375rem;
+    }
+
+    ::selection {
+        background-color: var(--color-saudi-100);
+        color: var(--color-saudi-900);
+    }
+
+    /* Scrollbar */
+    ::-webkit-scrollbar {
+        width: 8px;
+        height: 8px;
+    }
+
+    ::-webkit-scrollbar-track {
+        background: var(--color-canvas);
+    }
+
+    ::-webkit-scrollbar-thumb {
+        background: var(--color-slate-300);
+        border-radius: 999px;
+    }
+
+    ::-webkit-scrollbar-thumb:hover {
+        background: var(--color-saudi-700);
+    }
+}
+
+/* ==========================================================================
+   Components
+   ========================================================================== */
+
+@layer components {
+    .heading-hero {
+        font-size: var(--text-hero);
+        line-height: var(--text-hero--line-height);
+        font-weight: 700;
+        letter-spacing: -0.01em;
+    }
+
+    .heading-section {
+        font-size: var(--text-section);
+        line-height: var(--text-section--line-height);
+        font-weight: 700;
+    }
+
+    /* Subtle institutional background patterns. */
+    .bg-grid-pattern {
+        background-size: 32px 32px;
+        background-image:
+            linear-gradient(to right, rgb(0 90 54 / 0.05) 1px, transparent 1px),
+            linear-gradient(to bottom, rgb(0 90 54 / 0.05) 1px, transparent 1px);
+    }
+
+    .bg-dot-pattern {
+        background-image: radial-gradient(rgb(0 90 54 / 0.12) 1px, transparent 1px);
+        background-size: 24px 24px;
+    }
+
+    .prose-portal {
+        line-height: 1.9;
+    }
+
+    .prose-portal p + p {
+        margin-top: 1rem;
+    }
+
+    .prose-portal strong {
+        font-weight: 700;
+        color: var(--color-slate-900);
+    }
+}
+
+/* ==========================================================================
+   Utilities
+   ========================================================================== */
+
+@layer utilities {
+    /* Mirror an icon that points along the reading direction. */
+    [dir='rtl'] .flip-rtl {
+        transform: scaleX(-1);
+    }
+
+    .animate-pulse-subtle {
+        animation: pulse-subtle 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+    }
+
+    @keyframes pulse-subtle {
+        0%,
+        100% {
+            opacity: 1;
+            transform: scale(1);
+        }
+        50% {
+            opacity: 0.85;
+            transform: scale(1.02);
+        }
+    }
+
+    .animate-rise {
+        animation: rise 0.35s ease-out both;
+    }
+
+    @keyframes rise {
+        from {
+            opacity: 0;
+            transform: translateY(0.5rem);
+        }
+        to {
+            opacity: 1;
+            transform: translateY(0);
+        }
+    }
+
+    .scrollbar-none {
+        scrollbar-width: none;
+    }
+
+    .scrollbar-none::-webkit-scrollbar {
+        display: none;
+    }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    html {
+        scroll-behavior: auto;
+    }
+
+    .animate-pulse-subtle,
+    .animate-rise {
+        animation: none;
+    }
+}
+
+@media print {
+    header,
+    footer,
+    .no-print {
+        display: none !important;
+    }
+}

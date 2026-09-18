@@ -1,0 +1,705 @@
+[
+  {
+    "id": "uni-mit",
+    "nameAr": "معهد ماساتشوستس للتكنولوجيا",
+    "nameEn": "Massachusetts Institute of Technology (MIT)",
+    "country": "الولايات المتحدة الأمريكية",
+    "countryEn": "United States",
+    "countryCode": "US",
+    "city": "كامبريدج، ماساتشوستس",
+    "qsRank": 1,
+    "theRank": 2,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-rd",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "الذكاء الاصطناعي وتعلم الآلة",
+      "علوم وهندسة الحاسب",
+      "هندسة الطيران والفضاء",
+      "الهندسة الميكانيكية",
+      "الفيزياء الكمية"
+    ],
+    "topMajorsEn": [
+      "Artificial Intelligence & ML",
+      "Computer Science & Engineering",
+      "Aerospace Engineering",
+      "Mechanical Engineering",
+      "Quantum Physics"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7.5,
+    "minToefl": 100,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.mit.edu",
+    "acceptanceRate": "3.9%",
+    "culturalMissionId": "sacm-us",
+    "imageUrl": "https://images.unsplash.com/photo-1562774053-701939374585?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-stanford",
+    "nameAr": "جامعة ستانفورد",
+    "nameEn": "Stanford University",
+    "country": "الولايات المتحدة الأمريكية",
+    "countryEn": "United States",
+    "countryCode": "US",
+    "city": "ستانفورد، كاليفورنيا",
+    "qsRank": 2,
+    "theRank": 3,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-rd",
+      "track-excellence",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "علوم البيانات والذكاء الاصطناعي",
+      "إدارة الأعمال والتقنية",
+      "الهندسة الكهربائية",
+      "العلوم البيولوجية",
+      "السياسات العامة"
+    ],
+    "topMajorsEn": [
+      "Data Science & AI",
+      "Business & Tech Management",
+      "Electrical Engineering",
+      "Biological Sciences",
+      "Public Policy"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7.5,
+    "minToefl": 102,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.stanford.edu",
+    "acceptanceRate": "3.7%",
+    "culturalMissionId": "sacm-us",
+    "imageUrl": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-oxford",
+    "nameAr": "جامعة أكسفورد",
+    "nameEn": "University of Oxford",
+    "country": "المملكة المتحدة",
+    "countryEn": "United Kingdom",
+    "countryCode": "GB",
+    "city": "أكسفورد",
+    "qsRank": 3,
+    "theRank": 1,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-rd",
+      "track-excellence",
+      "track-health"
+    ],
+    "topMajorsAr": [
+      "الفلسفة والسياسة والاقتصاد (PPE)",
+      "العلوم الطبية وعلم الجينات",
+      "القانون الدولي",
+      "علوم الحاسب",
+      "الفيزياء التطبيقية"
+    ],
+    "topMajorsEn": [
+      "PPE (Politics, Philosophy & Economics)",
+      "Medical Sciences & Genomics",
+      "International Law",
+      "Computer Science",
+      "Applied Physics"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD",
+      "Fellowship"
+    ],
+    "minIelts": 7.5,
+    "minToefl": 110,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.ox.ac.uk",
+    "acceptanceRate": "14.2%",
+    "culturalMissionId": "sacm-uk",
+    "imageUrl": "https://images.unsplash.com/photo-1541829070764-84a7d30dd3f3?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-harvard",
+    "nameAr": "جامعة هارفارد",
+    "nameEn": "Harvard University",
+    "country": "الولايات المتحدة الأمريكية",
+    "countryEn": "United States",
+    "countryCode": "US",
+    "city": "كامبريدج، ماساتشوستس",
+    "qsRank": 4,
+    "theRank": 4,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-health",
+      "track-excellence",
+      "track-rd"
+    ],
+    "topMajorsAr": [
+      "الطب البشري وجراحة القلب",
+      "الصحة العامة العالمية",
+      "السياسات الحكومية والقانون",
+      "إدارة الأعمال",
+      "العلوم العصبية"
+    ],
+    "topMajorsEn": [
+      "Medicine & Cardiac Surgery",
+      "Global Public Health",
+      "Government & Law",
+      "Business Administration",
+      "Neuroscience"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD",
+      "Fellowship"
+    ],
+    "minIelts": 8,
+    "minToefl": 108,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.harvard.edu",
+    "acceptanceRate": "3.4%",
+    "culturalMissionId": "sacm-us",
+    "imageUrl": "https://images.unsplash.com/photo-1559135197-8a45ea74d56d?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-cambridge",
+    "nameAr": "جامعة كامبريدج",
+    "nameEn": "University of Cambridge",
+    "country": "المملكة المتحدة",
+    "countryEn": "United Kingdom",
+    "countryCode": "GB",
+    "city": "كامبريدج",
+    "qsRank": 5,
+    "theRank": 5,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-rd",
+      "track-excellence",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "الرياضيات البحتة والتطبيقية",
+      "هندسة المواد والمقاييس",
+      "العلوم الطبيعية",
+      "العمارة والتصميم المستدام",
+      "علم الوراثة"
+    ],
+    "topMajorsEn": [
+      "Pure & Applied Mathematics",
+      "Materials Engineering",
+      "Natural Sciences",
+      "Architecture & Sustainable Design",
+      "Genetics"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7.5,
+    "minToefl": 110,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.cam.ac.uk",
+    "acceptanceRate": "15.7%",
+    "culturalMissionId": "sacm-uk",
+    "imageUrl": "https://images.unsplash.com/photo-1519452635265-7b1fbfd1e4e0?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-imperial",
+    "nameAr": "إمبريال كوليدج لندن",
+    "nameEn": "Imperial College London",
+    "country": "المملكة المتحدة",
+    "countryEn": "United Kingdom",
+    "countryCode": "GB",
+    "city": "لندن",
+    "qsRank": 6,
+    "theRank": 8,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-supply",
+      "track-rd",
+      "track-health",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "الأمن السيبراني والشبكات",
+      "هندسة البترول والطاقة المتجددة",
+      "الطب الحيوي والهندسة الطبية",
+      "تحليلات البيانات المالية",
+      "الروبوتات"
+    ],
+    "topMajorsEn": [
+      "Cybersecurity & Networks",
+      "Petroleum & Renewable Energy",
+      "Biomedical Engineering",
+      "Financial Data Analytics",
+      "Robotics"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7,
+    "minToefl": 100,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.imperial.ac.uk",
+    "acceptanceRate": "11.8%",
+    "culturalMissionId": "sacm-uk",
+    "imageUrl": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-eth-zurich",
+    "nameAr": "المعهد الفيدرالي السويسري للتكنولوجيا (ETH Zurich)",
+    "nameEn": "ETH Zurich - Swiss Federal Institute of Technology",
+    "country": "سويسرا",
+    "countryEn": "Switzerland",
+    "countryCode": "CH",
+    "city": "زيورخ",
+    "qsRank": 7,
+    "theRank": 11,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-rd",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "الهندسة الميكانيكية والمعالجات",
+      "فيزياء الطاقة العالية",
+      "الروبوتات المستقلة",
+      "علوم الأرض والاستدامة",
+      "العلوم الحاسوبية"
+    ],
+    "topMajorsEn": [
+      "Mechanical Engineering & Process",
+      "High Energy Physics",
+      "Autonomous Robotics",
+      "Earth Sciences & Sustainability",
+      "Computational Sciences"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7,
+    "minToefl": 100,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://ethz.ch",
+    "acceptanceRate": "27.0%",
+    "culturalMissionId": "sacm-de",
+    "imageUrl": "https://images.unsplash.com/photo-1527891751199-722e234c7ca6?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-nus",
+    "nameAr": "جامعة سنغافورة الوطنية (NUS)",
+    "nameEn": "National University of Singapore (NUS)",
+    "country": "سنغافورة",
+    "countryEn": "Singapore",
+    "countryCode": "SG",
+    "city": "سنغافورة",
+    "qsRank": 8,
+    "theRank": 19,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-supply",
+      "track-rd",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "سلاسل الإمداد وإدارة اللوجستيات",
+      "الذكاء الاصطناعي وأنظمة المعلومات",
+      "الهندسة الكيميائية والبيئية",
+      "التمويل الكمي",
+      "التكنولوجيا الحيوية"
+    ],
+    "topMajorsEn": [
+      "Supply Chain & Logistics",
+      "AI & Information Systems",
+      "Chemical & Environmental Engineering",
+      "Quantitative Finance",
+      "Biotechnology"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7,
+    "minToefl": 95,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://nus.edu.sg",
+    "acceptanceRate": "5.0%",
+    "culturalMissionId": "sacm-cn",
+    "imageUrl": "https://images.unsplash.com/photo-1498243691581-b145c3f54a5a?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-ucl",
+    "nameAr": "كلية لندن الجامعية (UCL)",
+    "nameEn": "University College London (UCL)",
+    "country": "المملكة المتحدة",
+    "countryEn": "United Kingdom",
+    "countryCode": "GB",
+    "city": "لندن",
+    "qsRank": 9,
+    "theRank": 22,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-supply",
+      "track-excellence",
+      "track-health"
+    ],
+    "topMajorsAr": [
+      "التخطيط العمراني وتصميم المدن الذكية",
+      "العلوم العصبية والطب الدقيق",
+      "التعليم وتطوير السياسات",
+      "الهندسة المدنية المستدامة"
+    ],
+    "topMajorsEn": [
+      "Urban Planning & Smart Cities",
+      "Neuroscience & Precision Medicine",
+      "Education & Policy",
+      "Sustainable Civil Engineering"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7,
+    "minToefl": 100,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.ucl.ac.uk",
+    "acceptanceRate": "12.0%",
+    "culturalMissionId": "sacm-uk",
+    "imageUrl": "https://images.unsplash.com/photo-1548625361-195fe578cb26?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-caltech",
+    "nameAr": "معهد كاليفورنيا للتقنية (Caltech)",
+    "nameEn": "California Institute of Technology (Caltech)",
+    "country": "الولايات المتحدة الأمريكية",
+    "countryEn": "United States",
+    "countryCode": "US",
+    "city": "باسادينا، كاليفورنيا",
+    "qsRank": 10,
+    "theRank": 7,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-rd",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "فيزياء الفلك وعلوم الفضاء",
+      "الهندسة الكيميائية النانوية",
+      "الحوسبة الكمية",
+      "علوم الزلازل والجيوفيزياء"
+    ],
+    "topMajorsEn": [
+      "Astrophysics & Space Science",
+      "Nano Chemical Engineering",
+      "Quantum Computing",
+      "Seismology & Geophysics"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7.5,
+    "minToefl": 105,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.caltech.edu",
+    "acceptanceRate": "2.7%",
+    "culturalMissionId": "sacm-us",
+    "imageUrl": "https://images.unsplash.com/photo-1509062522246-3755977927d7?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-jhu",
+    "nameAr": "جامعة جونز هوبكنز",
+    "nameEn": "Johns Hopkins University (JHU)",
+    "country": "الولايات المتحدة الأمريكية",
+    "countryEn": "United States",
+    "countryCode": "US",
+    "city": "بالتيمور، ميريلاند",
+    "qsRank": 28,
+    "theRank": 15,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-health",
+      "track-rd"
+    ],
+    "topMajorsAr": [
+      "الطب السريري والزمالات الجراحية",
+      "الصحة العامة والأوبئة",
+      "الهندسة الطبية الحيوية",
+      "إدارة النظم الصحية",
+      "علم المناعة واللقاحات"
+    ],
+    "topMajorsEn": [
+      "Clinical Medicine & Surgical Fellowships",
+      "Public Health & Epidemiology",
+      "Biomedical Engineering",
+      "Health Systems Management",
+      "Immunology & Vaccines"
+    ],
+    "degreesAvailable": [
+      "Master",
+      "PhD",
+      "Fellowship"
+    ],
+    "minIelts": 7.5,
+    "minToefl": 105,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.jhu.edu",
+    "acceptanceRate": "7.5%",
+    "culturalMissionId": "sacm-us",
+    "imageUrl": "https://images.unsplash.com/photo-1584515979956-d9f6e5d09982?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-toronto",
+    "nameAr": "جامعة تورنتو",
+    "nameEn": "University of Toronto",
+    "country": "كندا",
+    "countryEn": "Canada",
+    "countryCode": "CA",
+    "city": "تورنتو، أونتاريو",
+    "qsRank": 21,
+    "theRank": 18,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-supply",
+      "track-health",
+      "track-rd"
+    ],
+    "topMajorsAr": [
+      "علم الأعصاب الحسابي",
+      "الطب المخبري",
+      "التمويل والمحاسبة الدولية",
+      "الذكاء الاصطناعي وهندسة البرمجيات"
+    ],
+    "topMajorsEn": [
+      "Computational Neuroscience",
+      "Laboratory Medicine",
+      "International Finance",
+      "AI & Software Engineering"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD",
+      "Fellowship"
+    ],
+    "minIelts": 7,
+    "minToefl": 100,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.utoronto.ca",
+    "acceptanceRate": "43.0%",
+    "culturalMissionId": "sacm-ca",
+    "imageUrl": "https://images.unsplash.com/photo-1564981797816-1043664bf78d?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-melbourne",
+    "nameAr": "جامعة ملبورن",
+    "nameEn": "University of Melbourne",
+    "country": "أستراليا",
+    "countryEn": "Australia",
+    "countryCode": "AU",
+    "city": "ملبورن، فيكتوريا",
+    "qsRank": 14,
+    "theRank": 37,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-supply",
+      "track-rd",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "علوم البيئة والتنوع الحيوي",
+      "الهندسة المدنية والإنشائية",
+      "القانون التجاري الدولي",
+      "التمريض المتقدم"
+    ],
+    "topMajorsEn": [
+      "Environmental Science",
+      "Civil & Structural Engineering",
+      "International Commercial Law",
+      "Advanced Nursing"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 6.5,
+    "minToefl": 90,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.unimelb.edu.au",
+    "acceptanceRate": "70.0%",
+    "culturalMissionId": "sacm-au",
+    "imageUrl": "https://images.unsplash.com/photo-1590012314607-cda9d9b699ae?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-tokyo",
+    "nameAr": "جامعة طوكيو",
+    "nameEn": "The University of Tokyo",
+    "country": "اليابان",
+    "countryEn": "Japan",
+    "countryCode": "JP",
+    "city": "طوكيو",
+    "qsRank": 28,
+    "theRank": 29,
+    "accreditedTracks": [
+      "track-pioneers",
+      "track-rd",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "الروبوتات المتقدمة والأتمتة",
+      "هندسة أشباه الموصلات",
+      "العلوم الفيزيائية والنووية",
+      "هندسة المواد الدقيقة"
+    ],
+    "topMajorsEn": [
+      "Advanced Robotics & Automation",
+      "Semiconductor Engineering",
+      "Physical & Nuclear Sciences",
+      "Micro Materials Engineering"
+    ],
+    "degreesAvailable": [
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 7,
+    "minToefl": 95,
+    "isTop30": true,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.u-tokyo.ac.jp",
+    "acceptanceRate": "34.0%",
+    "culturalMissionId": "sacm-jp",
+    "imageUrl": "https://images.unsplash.com/photo-1503899036084-c55cdd92da26?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-tum",
+    "nameAr": "جامعة ميونخ التقنية (TUM)",
+    "nameEn": "Technical University of Munich (TUM)",
+    "country": "ألمانيا",
+    "countryEn": "Germany",
+    "countryCode": "DE",
+    "city": "ميونخ، بافاريا",
+    "qsRank": 37,
+    "theRank": 30,
+    "accreditedTracks": [
+      "track-supply",
+      "track-rd",
+      "track-waed"
+    ],
+    "topMajorsAr": [
+      "هندسة السيارات الكهربائية وأنظمة الدفع",
+      "الذكاء الاصطناعي الصناعي",
+      "المعلوماتية الطبية",
+      "الهندسة الكيميائية الصناعية"
+    ],
+    "topMajorsEn": [
+      "EV Engineering & Powertrains",
+      "Industrial AI",
+      "Medical Informatics",
+      "Industrial Chemical Engineering"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "minIelts": 6.5,
+    "minToefl": 88,
+    "isTop30": false,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.tum.de",
+    "acceptanceRate": "24.0%",
+    "culturalMissionId": "sacm-de",
+    "imageUrl": "https://images.unsplash.com/photo-1592861956120-e524fc739696?w=600&auto=format&fit=crop&q=80"
+  },
+  {
+    "id": "uni-sorbonne",
+    "nameAr": "جامعة السوربون",
+    "nameEn": "Sorbonne University",
+    "country": "فرنسا",
+    "countryEn": "France",
+    "countryCode": "FR",
+    "city": "باريس",
+    "qsRank": 59,
+    "theRank": 75,
+    "accreditedTracks": [
+      "track-excellence",
+      "track-rd",
+      "track-health"
+    ],
+    "topMajorsAr": [
+      "علم المحيطات والبيئة البحرية",
+      "الطب وعلم الأعصاب",
+      "فلسفة وتاريخ العلوم",
+      "الرياضيات المتقدمة"
+    ],
+    "topMajorsEn": [
+      "Oceanography & Marine Environment",
+      "Medicine & Neuroscience",
+      "Philosophy of Science",
+      "Advanced Mathematics"
+    ],
+    "degreesAvailable": [
+      "Bachelor",
+      "Master",
+      "PhD",
+      "Fellowship"
+    ],
+    "minIelts": 6.5,
+    "minToefl": 90,
+    "isTop30": false,
+    "isTop100": true,
+    "isTop200": true,
+    "websiteUrl": "https://www.sorbonne-universite.fr",
+    "acceptanceRate": "29.0%",
+    "culturalMissionId": "sacm-fr",
+    "imageUrl": "https://images.unsplash.com/photo-1502602898657-3e91760cbb34?w=600&auto=format&fit=crop&q=80"
+  }
+]

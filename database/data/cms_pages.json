@@ -1,0 +1,133 @@
+[
+  {
+    "id": "page-home",
+    "slug": "home",
+    "titleAr": "الصفحة الرئيسية لمنصة الابتعاث",
+    "titleEn": "KASP Scholarship Home Page",
+    "descriptionAr": "البوابة التعريفية الموحدة لبرنامج خادم الحرمين الشريفين للابتعاث",
+    "status": "published",
+    "lastUpdated": "2026-09-10T11:00:00Z",
+    "author": "د. عبد العزيز الشمري",
+    "seoTitle": "برنامج خادم الحرمين الشريفين للابتعاث | وزارة التعليم",
+    "seoDescription": "المنصة الرسمية المعتمدة لبرنامج خادم الحرمين الشريفين للابتعاث - تعرف على المسارات والجامعات والشروط.",
+    "versions": [
+      {
+        "versionId": "v1.0",
+        "savedAt": "2026-08-01T09:00:00Z",
+        "savedBy": "د. عبد العزيز الشمري",
+        "comment": "النسخة الأولية لإطلاق العام الأكاديمي",
+        "blocks": []
+      },
+      {
+        "versionId": "v1.1",
+        "savedAt": "2026-09-10T11:00:00Z",
+        "savedBy": "أ. فهد القحطاني",
+        "comment": "تحديث شروط القبول وإضافة إحصائيات رؤية 2030",
+        "blocks": []
+      }
+    ],
+    "blocks": [
+      {
+        "id": "blk-01",
+        "type": "Hero",
+        "title": "البانر الترحيبي الرئيسي",
+        "content": "وجهتك نحو أرقى جامعات العالم لتحقيق طموحات الوطن",
+        "order": 1,
+        "config": {
+          "showCta": true,
+          "ctaText": "استكشف المسارات الستة"
+        },
+        "isVisible": true
+      },
+      {
+        "id": "blk-02",
+        "type": "Statistics",
+        "title": "مؤشرات الأداء الوطنية",
+        "content": "أكثر من 14,000 مقعد ابتعاثي ضمن مستهدفات رؤية المملكة 2030",
+        "order": 2,
+        "config": {
+          "counters": 4,
+          "animate": true
+        },
+        "isVisible": true
+      },
+      {
+        "id": "blk-03",
+        "type": "Tracks",
+        "title": "استعراض المسارات الستة",
+        "content": "مسارات الرواد، إمداد، البحث والتطوير، التميز، الصحي، وواعد",
+        "order": 3,
+        "config": {
+          "layout": "grid",
+          "showSeats": true
+        },
+        "isVisible": true
+      },
+      {
+        "id": "blk-04",
+        "type": "Universities",
+        "title": "الجامعات الموصى بها عالمياً",
+        "content": "دليل تفاعلي يبحث في أكثر من 300 جامعة مصنفة عالمياً",
+        "order": 4,
+        "config": {
+          "filterByTrack": true
+        },
+        "isVisible": true
+      },
+      {
+        "id": "blk-05",
+        "type": "FAQ",
+        "title": "الأسئلة الأكثر شيوعاً",
+        "content": "إجابات رسمية وموثقة على استفسارات الطلاب وأولياء الأمور",
+        "order": 5,
+        "config": {
+          "category": "all",
+          "count": 6
+        },
+        "isVisible": true
+      },
+      {
+        "id": "blk-06",
+        "type": "CTA",
+        "title": "الدعوة للتقديم الرسمي",
+        "content": "التقديم متاح إلكترونياً عبر بوابة الابتعاث الموحدة kasp.moe.gov.sa",
+        "order": 6,
+        "config": {
+          "buttonUrl": "https://kasp.moe.gov.sa"
+        },
+        "isVisible": true
+      }
+    ]
+  },
+  {
+    "id": "page-about",
+    "slug": "about",
+    "titleAr": "عن برنامج خادم الحرمين الشريفين",
+    "titleEn": "About KASP Program",
+    "descriptionAr": "نبذة تاريخية واستراتيجية عن البرنامج وركائزه ضمن رؤية 2030",
+    "status": "published",
+    "lastUpdated": "2026-08-15T14:30:00Z",
+    "author": "أ. فهد القحطاني",
+    "versions": [],
+    "blocks": [
+      {
+        "id": "blk-ab-01",
+        "type": "Hero",
+        "title": "رؤية ورسالة البرنامج",
+        "content": "الاستثمار في رأس المال البشري السعودي عبر الابتعاث لأرقى المؤسسات العالمية",
+        "order": 1,
+        "config": {},
+        "isVisible": true
+      },
+      {
+        "id": "blk-ab-02",
+        "type": "Timeline",
+        "title": "محطات تطور الابتعاث الخارجي",
+        "content": "من البدايات حتى إطلاق استراتيجية برنامج خادم الحرمين الشريفين المحدثة",
+        "order": 2,
+        "config": {},
+        "isVisible": true
+      }
+    ]
+  }
+]

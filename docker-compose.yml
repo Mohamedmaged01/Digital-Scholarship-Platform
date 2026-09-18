@@ -1,0 +1,100 @@
+version: '3.8'
+
+services:
+  # Primary App Service (Modular Monolith)
+  app:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: kasp_scholarship_app
+    restart: always
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - PORT=3000
+      - DB_PRIMARY_HOST=postgres_primary
+      - DB_REPLICA_HOST=postgres_replica
+      - DB_PORT=5432
+      - DB_NAME=kasp_db
+      - DB_USER=kasp_app_user
+      - DB_PASSWORD=SecretEnterprisePassword2026!
+      - REDIS_HOST=redis
+      - REDIS_PORT=6379
+    depends_on:
+      postgres_primary:
+        condition: service_healthy
+      redis:
+        condition: service_healthy
+    networks:
+      - kasp_internal_network
+
+  # High-Availability PostgreSQL Primary Instance
+  postgres_primary:
+    image: postgres:16-alpine
+    container_name: kasp_postgres_primary
+    restart: always
+    environment:
+      POSTGRES_DB: kasp_db
+      POSTGRES_USER: kasp_app_user
+      POSTGRES_PASSWORD: SecretEnterprisePassword2026!
+      POSTGRES_INITDB_ARGS: "--encoding=UTF-8 --lc-collate=C --lc-ctype=C"
+    volumes:
+      - postgres_primary_data:/var/lib/postgresql/data
+      - ./server/db/schema.sql:/docker-entrypoint-initdb.d/01_schema.sql
+      - ./server/db/seed.sql:/docker-entrypoint-initdb.d/02_seed.sql
+    ports:
+      - "5432:5432"
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U kasp_app_user -d kasp_db"]
+      interval: 5s
+      timeout: 5s
+      retries: 5
+    networks:
+      - kasp_internal_network
+
+  # Redis In-Memory Cache & Distributed Lock Store
+  redis:
+    image: redis:7-alpine
+    container_name: kasp_redis
+    restart: always
+    command: ["redis-server", "--appendonly", "yes", "--maxmemory", "512mb", "--maxmemory-policy", "allkeys-lru"]
+    volumes:
+      - redis_data:/data
+    ports:
+      - "6379:6379"
+    healthcheck:
+      test: ["CMD", "redis-cli", "ping"]
+      interval: 5s
+      timeout: 3s
+      retries: 5
+    networks:
+      - kasp_internal_network
+
+  # PgBouncer Connection Pooler
+  pgbouncer:
+    image: edoburu/pgbouncer:latest
+    container_name: kasp_pgbouncer
+    restart: always
+    environment:
+      DB_USER: kasp_app_user
+      DB_PASSWORD: SecretEnterprisePassword2026!
+      DB_HOST: postgres_primary
+      DB_NAME: kasp_db
+      POOL_MODE: transaction
+      MAX_CLIENT_CONN: 500
+      DEFAULT_POOL_SIZE: 50
+    ports:
+      - "6432:5432"
+    depends_on:
+      - postgres_primary
+    networks:
+      - kasp_internal_network
+
+volumes:
+  postgres_primary_data:
+  redis_data:
+
+networks:
+  kasp_internal_network:
+    driver: bridge

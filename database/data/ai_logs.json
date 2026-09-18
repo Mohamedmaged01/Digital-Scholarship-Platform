@@ -1,0 +1,126 @@
+[
+  {
+    "id": "log-ai-mit-9812",
+    "applicationId": "app-9812-sarah",
+    "applicantName": "سارة محمد القحطاني",
+    "universityName": "Massachusetts Institute of Technology (MIT)",
+    "ocrRawText": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY\n77 Massachusetts Avenue, Cambridge, MA 02139\nOFFICE OF GRADUATE ADMISSIONS\n\nDate: August 15, 2026\nApplicant: Sarah Mohammed Al-Qahtani\nApplication ID: MIT-GRAD-2026-88392\n\nOFFICIAL UNCONDITIONAL ADMISSION LETTER\n\nDear Ms. Al-Qahtani,\n\nWe are pleased to inform you that the Graduate Admissions Committee at MIT has approved your application for admission to the Master of Science in Artificial Intelligence & Machine Learning program within the Department of Electrical Engineering and Computer Science (EECS) for the Fall 2026 Academic Term starting September 1, 2026.\n\nProgram Details:\n- Degree: Master of Science (M.S.)\n- Major: Artificial Intelligence & Machine Learning\n- Program Duration: 24 Months (Full-Time)\n- Admission Status: UNCONDITIONAL (All academic credentials and English proficiency verified: IELTS Score 8.0).\n- Estimated Annual Tuition & Fees: $59,750 USD\n- Official University Code: 3514\n\nWe look forward to welcoming you to Cambridge.\n\nSincerely,\nProf. Michael R. Evans\nDean of Graduate Education, MIT",
+    "extractedData": {
+      "universityName": "Massachusetts Institute of Technology (MIT)",
+      "universityCountry": "الولايات المتحدة الأمريكية",
+      "universityRank": 1,
+      "major": "Master of Science in Artificial Intelligence & Machine Learning",
+      "degreeLevel": "Master",
+      "admissionType": "unconditional",
+      "startDate": "2026-09-01",
+      "durationMonths": 24,
+      "estimatedAnnualTuitionUsd": 59750,
+      "languageScoreDetected": {
+        "testType": "IELTS",
+        "score": 8,
+        "meetsRequirement": true
+      },
+      "rawConfidence": 0.99
+    },
+    "recommendation": {
+      "trackId": "track-pioneers",
+      "trackName": "مسار الرواد",
+      "trackNameEn": "Pioneers Track",
+      "confidence": 0.99,
+      "eligibility": true,
+      "criteriaChecks": [
+        {
+          "rule": "تصنيف الجامعة الدولي (أفضل 30)",
+          "required": "المرتبة 1 - 30",
+          "provided": "المرتبة 1 عالمياً",
+          "passed": true
+        },
+        {
+          "rule": "المعدل التراكمي للبكالوريوس",
+          "required": ">= 4.5 / 5.0",
+          "provided": "4.85 / 5.0",
+          "passed": true
+        },
+        {
+          "rule": "درجة اختبار اللغة (IELTS)",
+          "required": ">= 7.0",
+          "provided": "8.0",
+          "passed": true
+        },
+        {
+          "rule": "نوع القبول",
+          "required": "قبول غير مشروط (Unconditional)",
+          "provided": "غير مشروط",
+          "passed": true
+        },
+        {
+          "rule": "السن النظامي",
+          "required": "<= 35 عاماً",
+          "provided": "27 عاماً",
+          "passed": true
+        }
+      ],
+      "reasoning": "الملف مطابق بنسبة 100% لمعايير مسار الرواد مع تصنيف ممتاز وأولوية استراتيجية للذكاء الاصطناعي."
+    },
+    "confidenceScore": 99.2,
+    "processingTimeMs": 420,
+    "status": "SUCCESS",
+    "createdAt": "2026-08-25T09:14:00"
+  },
+  {
+    "id": "log-ai-imp-7734",
+    "applicationId": "app-7734-faisal",
+    "applicantName": "فيصل عبد الرحمن الغامدي",
+    "universityName": "Imperial College London",
+    "ocrRawText": "IMPERIAL COLLEGE LONDON - Department of Electrical and Electronic Engineering. Conditional Offer: MSc in Sustainable Energy & Grid Systems. IELTS 7.0 Verified. Start Date: Oct 2026.",
+    "extractedData": {
+      "universityName": "Imperial College London",
+      "universityCountry": "المملكة المتحدة",
+      "universityRank": 6,
+      "major": "MSc in Sustainable Energy & Grid Systems",
+      "degreeLevel": "Master",
+      "admissionType": "unconditional",
+      "startDate": "2026-10-01",
+      "durationMonths": 12,
+      "estimatedAnnualTuitionUsd": 46000,
+      "languageScoreDetected": {
+        "testType": "IELTS",
+        "score": 7,
+        "meetsRequirement": true
+      },
+      "rawConfidence": 0.97
+    },
+    "recommendation": {
+      "trackId": "track-supply",
+      "trackName": "مسار إمداد",
+      "trackNameEn": "Supply Track",
+      "confidence": 0.97,
+      "eligibility": true,
+      "criteriaChecks": [
+        {
+          "rule": "تصنيف الجامعة الدولي",
+          "required": "أفضل 200",
+          "provided": "المرتبة 6 عالمياً",
+          "passed": true
+        },
+        {
+          "rule": "المعدل التراكمي",
+          "required": ">= 3.5 / 5.0",
+          "provided": "4.10 / 5.0",
+          "passed": true
+        },
+        {
+          "rule": "الآيلتس",
+          "required": ">= 6.5",
+          "provided": "7.0",
+          "passed": true
+        }
+      ],
+      "reasoning": "التخصص يلبي متطلبات قطاع الطاقة المتجددة وسلاسل الإمداد في رؤية 2030."
+    },
+    "confidenceScore": 97.4,
+    "processingTimeMs": 380,
+    "status": "SUCCESS",
+    "createdAt": "2026-08-29T15:35:00"
+  }
+]

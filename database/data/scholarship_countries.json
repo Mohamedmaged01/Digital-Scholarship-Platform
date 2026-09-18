@@ -1,0 +1,90 @@
+[
+  {
+    "id": "cnt-us",
+    "nameAr": "الولايات المتحدة الأمريكية",
+    "nameEn": "United States",
+    "code": "USA",
+    "flag": "🇺🇸",
+    "region": "Americas",
+    "approvedUniversitiesCount": 142,
+    "culturalMissionCity": "واشنطن العاصمة (Washington D.C.)",
+    "status": "active"
+  },
+  {
+    "id": "cnt-uk",
+    "nameAr": "المملكة المتحدة",
+    "nameEn": "United Kingdom",
+    "code": "GBR",
+    "flag": "🇬🇧",
+    "region": "Europe",
+    "approvedUniversitiesCount": 48,
+    "culturalMissionCity": "لندن (London)",
+    "status": "active"
+  },
+  {
+    "id": "cnt-au",
+    "nameAr": "أستراليا",
+    "nameEn": "Australia",
+    "code": "AUS",
+    "flag": "🇦🇺",
+    "region": "Asia-Pacific",
+    "approvedUniversitiesCount": 26,
+    "culturalMissionCity": "كانبيرا (Canberra)",
+    "status": "active"
+  },
+  {
+    "id": "cnt-ca",
+    "nameAr": "كندا",
+    "nameEn": "Canada",
+    "code": "CAN",
+    "flag": "🇨🇦",
+    "region": "Americas",
+    "approvedUniversitiesCount": 22,
+    "culturalMissionCity": "أوتاوا (Ottawa)",
+    "status": "active"
+  },
+  {
+    "id": "cnt-sg",
+    "nameAr": "سنغافورة",
+    "nameEn": "Singapore",
+    "code": "SGP",
+    "flag": "🇸🇬",
+    "region": "Asia-Pacific",
+    "approvedUniversitiesCount": 3,
+    "culturalMissionCity": "سنغافورة (Singapore)",
+    "status": "active"
+  },
+  {
+    "id": "cnt-jp",
+    "nameAr": "اليابان",
+    "nameEn": "Japan",
+    "code": "JPN",
+    "flag": "🇯🇵",
+    "region": "Asia-Pacific",
+    "approvedUniversitiesCount": 12,
+    "culturalMissionCity": "طوكيو (Tokyo)",
+    "status": "active"
+  },
+  {
+    "id": "cnt-de",
+    "nameAr": "ألمانيا",
+    "nameEn": "Germany",
+    "code": "DEU",
+    "flag": "🇩🇪",
+    "region": "Europe",
+    "approvedUniversitiesCount": 18,
+    "culturalMissionCity": "برلين (Berlin)",
+    "status": "active"
+  },
+  {
+    "id": "cnt-fr",
+    "nameAr": "فرنسا",
+    "nameEn": "France",
+    "code": "FRA",
+    "flag": "🇫🇷",
+    "region": "Europe",
+    "approvedUniversitiesCount": 15,
+    "culturalMissionCity": "باريس (Paris)",
+    "status": "active"
+  }
+]

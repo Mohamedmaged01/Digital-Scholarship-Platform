@@ -1,0 +1,10 @@
+{
+  "siteTitleAr": "منصة برنامج خادم الحرمين الشريفين للابتعاث",
+  "siteTitleEn": "The Custodian of the Two Holy Mosques Scholarship Program",
+  "maintenanceMode": false,
+  "officialApplicationUrl": "https://kasp.moe.gov.sa",
+  "supportEmail": "scholarships@moe.gov.sa",
+  "hotlinePhone": "19996",
+  "allowPublicAiChat": true,
+  "cacheTtlSeconds": 3600
+}

@@ -1,0 +1,60 @@
+[
+  {
+    "id": "aud-101",
+    "timestamp": "2026-09-14 22:45:10",
+    "actorName": "د. عبد العزيز الشمري",
+    "actorRole": "SUPER_ADMIN",
+    "action": "PUBLISH",
+    "targetEntity": "الصفحة الرئيسية (page-home)",
+    "details": "نشر التحديث رقم 1.1 لمتطلبات العام الأكاديمي",
+    "ipAddress": "10.240.12.88",
+    "previousValue": "Draft v1.1",
+    "newValue": "Published v1.1"
+  },
+  {
+    "id": "aud-102",
+    "timestamp": "2026-09-14 19:12:04",
+    "actorName": "د. سارة التميمي",
+    "actorRole": "SCHOLARSHIP_MANAGER",
+    "action": "UPDATE",
+    "targetEntity": "مسار الرواد (track-pioneers)",
+    "details": "تعديل الحد الأدنى لدرجة اختبار الآيلتس إلى 7.0 وإتاحة القبول المباشر",
+    "ipAddress": "10.240.14.21",
+    "previousValue": "IELTS: 7.5",
+    "newValue": "IELTS: 7.0"
+  },
+  {
+    "id": "aud-103",
+    "timestamp": "2026-09-14 16:30:00",
+    "actorName": "أ. فهد القحطاني",
+    "actorRole": "CONTENT_MANAGER",
+    "action": "CREATE",
+    "targetEntity": "خبر صحفي (news-03)",
+    "details": "إنشاء مسودة خبر شراكة تدريبية مبتعثة جديدة",
+    "ipAddress": "10.240.18.5",
+    "newValue": "Status: Draft"
+  },
+  {
+    "id": "aud-104",
+    "timestamp": "2026-09-14 11:20:15",
+    "actorName": "أ. تركي الحربي",
+    "actorRole": "MEDIA_MANAGER",
+    "action": "CREATE",
+    "targetEntity": "وسائط رقمية (med-02)",
+    "details": "رفع دليل شروط مسار الرواد بصيغة PDF والتحقق الأمني",
+    "ipAddress": "10.240.22.40",
+    "newValue": "File: pioneers_guidelines.pdf"
+  },
+  {
+    "id": "aud-105",
+    "timestamp": "2026-09-13 14:05:32",
+    "actorName": "د. عبد العزيز الشمري",
+    "actorRole": "SUPER_ADMIN",
+    "action": "ROLLBACK",
+    "targetEntity": "الصفحة الرئيسية (page-home)",
+    "details": "التراجع إلى النسخة v1.0 لإعادة مراجعة البانر الترويجي",
+    "ipAddress": "10.240.12.88",
+    "previousValue": "Version 1.1",
+    "newValue": "Version 1.0 (Restored)"
+  }
+]

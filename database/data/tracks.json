@@ -1,0 +1,207 @@
+[
+  {
+    "id": "track-pioneers",
+    "code": "PIONEERS",
+    "nameAr": "مسار الرواد",
+    "nameEn": "Pioneers Track",
+    "descriptionAr": "ابتعاث الطلاب إلى أفضل 30 جامعة ومؤسسة تعليمية على مستوى العالم لدراسة برامج البكالوريوس والماجستير والدكتوراه.",
+    "descriptionEn": "Scholarships to the top 30 ranked global universities for Bachelor, Master, and PhD degrees with direct unconditional admission.",
+    "badgeColor": "emerald",
+    "minGpa": 4.5,
+    "maxAge": 35,
+    "requiredDegree": [
+      "Bachelor",
+      "Master",
+      "PhD"
+    ],
+    "requiredIelts": 7,
+    "requiredToefl": 100,
+    "topUniversitiesRankLimit": 30,
+    "targetSectors": [
+      "الذكاء الاصطناعي",
+      "التقنيات المتقدمة",
+      "السياسات العامة",
+      "الطب الحيوي",
+      "الفضاء والفيزياء"
+    ],
+    "allocatedSeats": 2500,
+    "filledSeats": 1840,
+    "isActive": true,
+    "features": [
+      "قبول غير مشروط من أفضل 30 جامعة عالمياً",
+      "تغطية مالية شاملة مع مخصصات تميز شهرية",
+      "مسار سريع لإصدار الضمان المالي الفوري",
+      "إشراف أكاديمي وبحثي مباشر من الملحقية"
+    ]
+  },
+  {
+    "id": "track-supply",
+    "code": "IMDAD",
+    "nameAr": "مسار إمداد",
+    "nameEn": "Supply Track (Imdad)",
+    "descriptionAr": "تلبية احتياجات سوق العمل الوطني في التخصصات الواعدة والحرجة بأفضل 200 جامعة عالمياً للمرحلتين البكالوريوس والماجستير.",
+    "descriptionEn": "Fulfilling national labor market demands in strategic and high-growth sectors across top 200 international universities.",
+    "badgeColor": "blue",
+    "minGpa": 3.5,
+    "maxAge": 40,
+    "requiredDegree": [
+      "Bachelor",
+      "Master"
+    ],
+    "requiredIelts": 6.5,
+    "requiredToefl": 90,
+    "topUniversitiesRankLimit": 200,
+    "targetSectors": [
+      "سلاسل الإمداد واللوجستيات",
+      "الأمن السيبراني",
+      "الطاقة المتجددة",
+      "الضيافة والسياحة",
+      "التمويل الرقمي"
+    ],
+    "allocatedSeats": 5000,
+    "filledSeats": 3920,
+    "isActive": true,
+    "features": [
+      "قائمة واسعة تضم أفضل 200 جامعة عالمية",
+      "ربط مباشر مع الشركاء وجهات التوظيف الوطنية",
+      "دعم برامج التدريب الصيفي العملي التعاوني",
+      "فرص تدريب مهني مع كبرى الشركات العالمية"
+    ]
+  },
+  {
+    "id": "track-rd",
+    "code": "RD",
+    "nameAr": "مسار البحث والتطوير",
+    "nameEn": "R&D Track",
+    "descriptionAr": "تأهيل الباحثين والعلماء في مجالات الأولويات الوطنية للبحث والتطوير والابتكار في درجات الماجستير والدكتوراه.",
+    "descriptionEn": "Cultivating top researchers and scientists in national R&D priority areas for graduate research degrees.",
+    "badgeColor": "purple",
+    "minGpa": 4,
+    "maxAge": 45,
+    "requiredDegree": [
+      "Master",
+      "PhD"
+    ],
+    "requiredIelts": 7.5,
+    "requiredToefl": 105,
+    "topUniversitiesRankLimit": 100,
+    "targetSectors": [
+      "الصحة والحياة",
+      "استدامة البيئة والاحتياجات الأساسية",
+      "الريادة في الطاقة والصناعة",
+      "اقتصاديات المستقبل"
+    ],
+    "allocatedSeats": 1500,
+    "filledSeats": 970,
+    "isActive": true,
+    "features": [
+      "تمويل أبحاث وميزانية مخصصة للمختبرات والمؤتمرات",
+      "شراكات بحثية مع مدينة الملك عبد العزيز وجامعة كاوست",
+      "أولوية التعيين في مراكز الابتكار الوطنية",
+      "برامج ما بعد الدكتوراه وزمالات الأبحاث المتقدمة"
+    ]
+  },
+  {
+    "id": "track-excellence",
+    "code": "EXCELLENCE",
+    "nameAr": "مسار التميز",
+    "nameEn": "Excellence Track",
+    "descriptionAr": "الابتعاث في تخصصات نوعية محددة تدعم مشاريع رؤية المملكة 2030 الكبرى في أفضل 70 جامعة دولية.",
+    "descriptionEn": "Scholarships in specialized disciplines powering Saudi Vision 2030 megaprojects in top 70 universities.",
+    "badgeColor": "amber",
+    "minGpa": 4.8,
+    "maxAge": 30,
+    "requiredDegree": [
+      "Bachelor",
+      "Master"
+    ],
+    "requiredIelts": 8,
+    "requiredToefl": 110,
+    "topUniversitiesRankLimit": 70,
+    "targetSectors": [
+      "فنون الطهي والضيافة الفاخرة",
+      "الإنتاج السينمائي والوسائط الرقمية",
+      "التصميم الحضري والعمارة",
+      "علوم المحيطات والبيئة البحرية"
+    ],
+    "allocatedSeats": 2000,
+    "filledSeats": 1460,
+    "isActive": true,
+    "features": [
+      "تخصصات إبداعية ونوعية تدعم نيوم والقدية والبحر الأحمر",
+      "برامج توجيه قيادي مع خبراء دوليين",
+      "مكافأة تميز للمتفوقين أكاديمياً",
+      "مسار مهني مباشر مع المشاريع الكبرى"
+    ]
+  },
+  {
+    "id": "track-health",
+    "code": "HEALTH",
+    "nameAr": "المسار الصحي",
+    "nameEn": "Healthcare & Medical Track",
+    "descriptionAr": "تأهيل الكوادر الطبية والصحية الوطنية في برامج الإقامة الطبية والزمالات الدقيقة والتخصصات الصحية النادرة في أرقى المستشفيات الجامعية.",
+    "descriptionEn": "Specialized healthcare and clinical fellowships, medical residencies, and nursing specializations at top global academic medical centers.",
+    "badgeColor": "rose",
+    "minGpa": 4.2,
+    "maxAge": 40,
+    "requiredDegree": [
+      "Bachelor",
+      "Master",
+      "PhD",
+      "Fellowship"
+    ],
+    "requiredIelts": 7.5,
+    "requiredToefl": 100,
+    "topUniversitiesRankLimit": 50,
+    "targetSectors": [
+      "جراحة الأورام الدقيقة",
+      "طب الطوارئ والكوارث",
+      "علم الجينوم الطبي",
+      "التمريض المتقدم",
+      "الصحة الرقمية والذكاء الاصطناعي الطبي"
+    ],
+    "allocatedSeats": 1800,
+    "filledSeats": 1210,
+    "isActive": true,
+    "features": [
+      "ابتعاث للزمالات الطبية والبورد الأمريكي والكندي والأوروبي",
+      "تغطية رسوم التدريب السريري والتأمين الطبي المهني الكامل",
+      "شراكة مع الهيئة السعودية للتخصصات الصحية (SCFHS)",
+      "أولوية التعيين في المدن والمستشفيات التخصصية الكبرى"
+    ]
+  },
+  {
+    "id": "track-waed",
+    "code": "WAED",
+    "nameAr": "مسار واعد",
+    "nameEn": "Wa'ed Track (Promising Sectors)",
+    "descriptionAr": "ابتعاث الطلاب في قطاعات الابتكار والتقنيات الناشئة والصناعات الاستراتيجية المتقدمة وفق اتفاقيات الرعاية مع كبرى الشركات الوطنية.",
+    "descriptionEn": "Scholarships in promising future industries and emerging technologies co-sponsored with Saudi national champions and sovereign entities.",
+    "badgeColor": "teal",
+    "minGpa": 3.8,
+    "maxAge": 32,
+    "requiredDegree": [
+      "Bachelor",
+      "Master"
+    ],
+    "requiredIelts": 6.5,
+    "requiredToefl": 90,
+    "topUniversitiesRankLimit": 150,
+    "targetSectors": [
+      "صناعة الفضاء والأقمار الاصطناعية",
+      "الهيدروجين الأخضر والطاقة النظيفة",
+      "أشباه الموصلات والرقائق",
+      "الروبوتات والأتمتة الصناعية",
+      "التعدين المتقدم"
+    ],
+    "allocatedSeats": 2200,
+    "filledSeats": 1530,
+    "isActive": true,
+    "features": [
+      "عقود تدريب وتوظيف مسبق مع الشركاء الصناعيين",
+      "مشاريع تخرج تطبيقية مرتبطة بالصناعات الوطنية",
+      "فرص حضور المعارض والمؤتمرات التقنية العالمية",
+      "حوافز ابتكار وبراءات اختراع مدفوعة"
+    ]
+  }
+]

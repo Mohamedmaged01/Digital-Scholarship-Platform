@@ -1,0 +1,40 @@
+[
+  {
+    "id": "med-01",
+    "name": "kasp_official_emblem_2026.png",
+    "url": "https://images.unsplash.com/photo-1523050854058-8df90110c9f1?w=800&auto=format&fit=crop&q=80",
+    "fileSize": "420 KB",
+    "fileType": "image/png",
+    "extension": "png",
+    "altTextAr": "شعار برنامج خادم الحرمين الشريفين للابتعاث الرسمي",
+    "altTextEn": "Official KASP Emblem",
+    "uploadedAt": "2026-08-15",
+    "uploadedBy": "أ. تركي الحربي",
+    "dimensions": "1200x800"
+  },
+  {
+    "id": "med-02",
+    "name": "pioneers_track_guidelines_2026.pdf",
+    "url": "https://kasp.moe.gov.sa/docs/pioneers_guidelines.pdf",
+    "fileSize": "1.8 MB",
+    "fileType": "application/pdf",
+    "extension": "pdf",
+    "altTextAr": "دليل شروط وضوابط مسار الرواد للعام 2026",
+    "altTextEn": "Pioneers Track Eligibility Guidelines 2026",
+    "uploadedAt": "2026-08-28",
+    "uploadedBy": "د. سارة التميمي"
+  },
+  {
+    "id": "med-03",
+    "name": "saudi_scholars_oxford_ceremony.jpg",
+    "url": "https://images.unsplash.com/photo-1541339907198-e08756dedf3f?w=800&auto=format&fit=crop&q=80",
+    "fileSize": "950 KB",
+    "fileType": "image/jpeg",
+    "extension": "jpg",
+    "altTextAr": "حفل تكريم خريجي برنامج الابتعاث في جامعة أكسفورد",
+    "altTextEn": "Oxford University Saudi Scholars Graduation",
+    "uploadedAt": "2026-07-22",
+    "uploadedBy": "أ. تركي الحربي",
+    "dimensions": "1920x1080"
+  }
+]

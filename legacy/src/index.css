@@ -1,0 +1,147 @@
+@import "tailwindcss";
+
+@layer base {
+  :root {
+    /* Color Tokens */
+    --saudi-green: #005A36;
+    --saudi-green-dark: #004328;
+    --saudi-green-deep: #022c22;
+    --sand-gold: #c5a059;
+    --sand-gold-light: #dfc284;
+
+    /* Font Family Tokens */
+    --font-arabic: 'IBM Plex Sans Arabic', 'Tajawal', 'Arial', sans-serif;
+    --font-latin: 'IBM Plex Sans', 'Inter', 'Arial', sans-serif;
+
+    /* Font Size Scale (Desktop / Fluid) */
+    --font-size-xs: 0.75rem;       /* 12px */
+    --font-size-sm: 0.875rem;      /* 14px */
+    --font-size-md: 1rem;          /* 16px */
+    --font-size-lg: 1.125rem;      /* 18px */
+    --font-size-xl: 1.25rem;       /* 20px */
+    --font-size-2xl: 1.5rem;       /* 24px */
+    --font-size-3xl: 2rem;         /* 32px */
+    --font-size-4xl: 2.5rem;       /* 40px */
+    --font-size-hero: clamp(2rem, 3.5vw + 1rem, 3.75rem); /* 32px - 60px */
+
+    /* Font Weight Tokens */
+    --font-weight-light: 300;
+    --font-weight-regular: 400;
+    --font-weight-medium: 500;
+    --font-weight-semibold: 600;
+    --font-weight-bold: 700;
+
+    /* Line Height Tokens */
+    --line-height-hero: 1.2;
+    --line-height-heading: 1.3;
+    --line-height-body-ar: 1.7;
+    --line-height-body-en: 1.6;
+    --line-height-faq: 1.8;
+  }
+
+  /* RTL / Arabic Default */
+  html[dir="rtl"],
+  html[lang="ar"] {
+    font-family: var(--font-arabic);
+    line-height: var(--line-height-body-ar);
+    letter-spacing: normal;
+    text-transform: none;
+  }
+
+  /* LTR / English */
+  html[dir="ltr"],
+  html[lang="en"] {
+    font-family: var(--font-latin);
+    line-height: var(--line-height-body-en);
+  }
+
+  body {
+    font-family: inherit;
+    color: #0f172a;
+    background-color: #F8FAF9;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+}
+
+/* Unified Font Utility Classes */
+.font-arabic,
+.font-cairo {
+  font-family: var(--font-arabic) !important;
+}
+
+.font-latin,
+.font-sans-en {
+  font-family: var(--font-latin) !important;
+}
+
+/* Heading Typography Presets */
+.heading-hero {
+  font-size: var(--font-size-hero);
+  line-height: var(--line-height-hero);
+  font-weight: var(--font-weight-bold);
+}
+
+.heading-section {
+  font-size: clamp(1.75rem, 2.5vw + 0.5rem, 2.5rem);
+  line-height: var(--line-height-heading);
+  font-weight: var(--font-weight-bold);
+}
+
+.heading-card {
+  font-size: 1.125rem;
+  line-height: 1.4;
+  font-weight: var(--font-weight-semibold);
+}
+
+/* Custom Scrollbar */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: #f8faf9;
+}
+::-webkit-scrollbar-thumb {
+  background: #cbd5e1;
+  border-radius: 6px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #005A36;
+}
+
+/* Directional Flip Helper */
+[dir="rtl"] .flip-in-rtl {
+  transform: scaleX(-1);
+}
+
+[dir="rtl"] .arrow-advance {
+  transform: rotate(180deg);
+}
+
+[dir="ltr"] .arrow-advance {
+  transform: rotate(0deg);
+}
+
+/* Subtle Government Pattern Backgrounds */
+.bg-grid-pattern {
+  background-size: 32px 32px;
+  background-image: 
+    linear-gradient(to right, rgba(0, 90, 54, 0.04) 1px, transparent 1px),
+    linear-gradient(to bottom, rgba(0, 90, 54, 0.04) 1px, transparent 1px);
+}
+
+.bg-dot-pattern {
+  background-image: radial-gradient(rgba(0, 90, 54, 0.12) 1px, transparent 1px);
+  background-size: 24px 24px;
+}
+
+@keyframes pulse-subtle {
+  0%, 100% { opacity: 1; transform: scale(1); }
+  50% { opacity: 0.85; transform: scale(1.02); }
+}
+
+.animate-pulse-subtle {
+  animation: pulse-subtle 4s cubic-bezier(0.4, 0, 0.6, 1) infinite;
+}

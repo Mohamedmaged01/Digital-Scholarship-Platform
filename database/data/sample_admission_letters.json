@@ -1,0 +1,82 @@
+[
+  {
+    "id": "sample-mit-ai",
+    "titleAr": "معهد ماساتشوستس للتكنولوجيا (MIT) - ماجستير ذكاء اصطناعي",
+    "titleEn": "MIT - Master of Science in Artificial Intelligence",
+    "universityName": "Massachusetts Institute of Technology (MIT)",
+    "universityCountry": "الولايات المتحدة الأمريكية",
+    "universityRank": 1,
+    "major": "Master of Science in Artificial Intelligence & Machine Learning",
+    "degreeLevel": "Master",
+    "admissionType": "unconditional",
+    "startDate": "2026-09-01",
+    "durationMonths": 24,
+    "annualTuitionUsd": 59750,
+    "languageScoreDetected": {
+      "testType": "IELTS",
+      "score": 8,
+      "meetsRequirement": true
+    },
+    "rawText": "MASSACHUSETTS INSTITUTE OF TECHNOLOGY\n77 Massachusetts Avenue, Cambridge, MA 02139\nOFFICE OF GRADUATE ADMISSIONS\n\nDate: August 15, 2026\nApplicant: Sarah Mohammed Al-Qahtani\nApplication ID: MIT-GRAD-2026-88392\n\nOFFICIAL UNCONDITIONAL ADMISSION LETTER\n\nDear Ms. Al-Qahtani,\n\nWe are pleased to inform you that the Graduate Admissions Committee at MIT has approved your application for admission to the Master of Science in Artificial Intelligence & Machine Learning program within the Department of Electrical Engineering and Computer Science (EECS) for the Fall 2026 Academic Term starting September 1, 2026.\n\nProgram Details:\n- Degree: Master of Science (M.S.)\n- Major: Artificial Intelligence & Machine Learning\n- Program Duration: 24 Months (Full-Time)\n- Admission Status: UNCONDITIONAL (All academic credentials and English proficiency verified: IELTS Score 8.0).\n- Estimated Annual Tuition & Fees: $59,750 USD\n- Official University Code: 3514\n\nWe look forward to welcoming you to Cambridge.\n\nSincerely,\nProf. Michael R. Evans\nDean of Graduate Education, MIT"
+  },
+  {
+    "id": "sample-oxford-ppe",
+    "titleAr": "جامعة أكسفورد (Oxford) - بكالوريوس الفلسفة والسياسة والاقتصاد",
+    "titleEn": "University of Oxford - BA in Philosophy, Politics and Economics (PPE)",
+    "universityName": "University of Oxford",
+    "universityCountry": "المملكة المتحدة",
+    "universityRank": 3,
+    "major": "Bachelor of Arts in Philosophy, Politics and Economics (PPE)",
+    "degreeLevel": "Bachelor",
+    "admissionType": "unconditional",
+    "startDate": "2026-10-05",
+    "durationMonths": 36,
+    "annualTuitionUsd": 48500,
+    "languageScoreDetected": {
+      "testType": "IELTS",
+      "score": 7.5,
+      "meetsRequirement": true
+    },
+    "rawText": "UNIVERSITY OF OXFORD\nUniversity Offices, Wellington Square, Oxford OX1 2JD, United Kingdom\nUNDERGRADUATE ADMISSIONS OFFICE\n\nOffer Letter & Certificate of Acceptance\nApplicant Name: Sarah Mohammed Al-Qahtani\nUCAS ID: 198-472-9188\nCollege: Balliol College\n\nDear Sarah,\n\nThe College and University are delighted to make you an UNCONDITIONAL OFFER to read for the Degree of Bachelor of Arts in Philosophy, Politics and Economics (PPE) beginning Michaelmas Term on 5 October 2026.\n\nKey Course Information:\n- Degree Title: Bachelor of Arts (Honours)\n- Subject: Philosophy, Politics and Economics\n- Expected Duration: 3 Academic Years (36 Months)\n- Tuition Fees: £38,550 per annum (~$48,500 USD)\n- English Language Requirement: Satisfied via IELTS (Score 7.5 Overall)\n\nPlease accept this letter as official confirmation for visa and governmental scholarship sponsorship purposes.\n\nYours sincerely,\nDr. Fiona C. Bennett\nTutor for Admissions, Balliol College, Oxford"
+  },
+  {
+    "id": "sample-harvard-bio",
+    "titleAr": "جامعة هارفارد (Harvard) - دكتوراه الهندسة الحيوية والطب التجديدي",
+    "titleEn": "Harvard University - PhD in Bioengineering & Regenerative Medicine",
+    "universityName": "Harvard University",
+    "universityCountry": "الولايات المتحدة الأمريكية",
+    "universityRank": 4,
+    "major": "Doctor of Philosophy (PhD) in Bioengineering & Regenerative Medicine",
+    "degreeLevel": "PhD",
+    "admissionType": "unconditional",
+    "startDate": "2026-09-08",
+    "durationMonths": 48,
+    "annualTuitionUsd": 54200,
+    "languageScoreDetected": {
+      "testType": "TOEFL",
+      "score": 112,
+      "meetsRequirement": true
+    },
+    "rawText": "HARVARD UNIVERSITY\nGraduate School of Arts and Sciences (GSAS)\nSmith Campus Center 350, 1350 Massachusetts Avenue, Cambridge, MA 02138\n\nADMISSION DECISION NOTICE: PhD PROGRAM\n\nDate: August 20, 2026\nStudent: Sarah Mohammed Al-Qahtani\nHUID: 80992314\n\nDear Sarah,\n\nIt gives me immense pleasure to inform you that you have been admitted to the PhD Program in Bioengineering & Regenerative Medicine at Harvard University, starting in the Fall Term on September 8, 2026.\n\nAcademic Specifications:\n- Program: Doctor of Philosophy in Bioengineering (SEAS/GSAS)\n- Duration: 4 Years (48 Months full research track)\n- Condition Status: FULL UNCONDITIONAL ACCEPTANCE\n- Language Proficiency: Met (TOEFL iBT Score 112)\n- Annual Estimated Costs: $54,200 USD\n\nWe eagerly anticipate your contributions to Harvard's research labs.\n\nWith warmest congratulations,\nEmma Dench, Dean of GSAS, Harvard University"
+  },
+  {
+    "id": "sample-stanford-cyber",
+    "titleAr": "جامعة ستانفورد (Stanford) - ماجستير الأمن السيبراني والحوسبة السحابية",
+    "titleEn": "Stanford University - M.S. in Computer Science (Cybersecurity & Systems)",
+    "universityName": "Stanford University",
+    "universityCountry": "الولايات المتحدة الأمريكية",
+    "universityRank": 2,
+    "major": "Master of Science in Computer Science - Cybersecurity & Cloud Infrastructure",
+    "degreeLevel": "Master",
+    "admissionType": "unconditional",
+    "startDate": "2026-09-22",
+    "durationMonths": 24,
+    "annualTuitionUsd": 62400,
+    "languageScoreDetected": {
+      "testType": "TOEFL",
+      "score": 110,
+      "meetsRequirement": true
+    },
+    "rawText": "STANFORD UNIVERSITY\nSchool of Engineering - Department of Computer Science\nGates Computer Science Building, Stanford, CA 94305\n\nOFFICIAL LETTER OF GRADUATE ADMISSION\n\nDate: August 18, 2026\nApplicant: Sarah Mohammed Al-Qahtani\nStanford ID: 06894412\n\nDear Sarah,\n\nCongratulations! On behalf of the faculty of the Department of Computer Science, I am delighted to invite you to join Stanford University for graduate study leading to the Master of Science degree in Computer Science with a specialization in Cybersecurity & Cloud Infrastructure starting Autumn Quarter (September 22, 2026).\n\nProgram Summary:\n- Degree Level: Master of Science (M.S.)\n- Area of Focus: Cybersecurity, Cryptography & Cloud Computing\n- Duration: 24 Months\n- Status: Unconditional Admission\n- Tuition & Associated Fees: $62,400 USD per year\n\nWelcome to Stanford Engineering!\n\nSincerely,\nJohn Mitchell\nChair, Department of Computer Science, Stanford University"
+  }
+]
