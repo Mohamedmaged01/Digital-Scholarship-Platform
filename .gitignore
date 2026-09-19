@@ -1,7 +1,8 @@
 /.phpunit.cache
 /bootstrap/ssr
 /node_modules
-/public/build
+# public/build is committed on purpose: the Plesk/IIS target has no Node
+# toolchain, so the compiled assets ship with the repository.
 /public/hot
 /public/storage
 /storage/*.key
